@@ -1,0 +1,10 @@
+1.  git restore --staged Filename
+2.  git clean -xdf (  git clean -xdn  просмотр что можно удалять)
+3.  git checkout Filename
+4.  git commit --amend, git revert, git reset
+5.  git commit --amend -m "правильный Filename" 
+6.  git reset HEAD ~1
+7.  потому что уже могли коллеги к себе скачать и git puss не пройдет 
+
+
+
