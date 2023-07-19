@@ -1,0 +1,48 @@
+ 0 cd /home
+   1 mkdir dogs cats fish
+   2 touch dogs/pluto.txt cats/garfield.txt fish/nemo.txt
+   3 ls
+   4 cd /tmp
+   5 touch adam evA
+   6 cd /home
+   7 mkdir humans
+   8 cp /tmp/adam /home/humans/
+   9 cp -r /tmp/evA /opt/eve
+  10 mv /opt/eve /home/humans
+  11 tree
+  12 history > history.txt
+
+
+
+
+ 0 cd /home
+   1 mkdir -p /user/start/ 
+   2 cd /user
+   3 cd /start
+   4 tree
+   5 cd start
+   6 > 1.txt
+   7 nano
+   8 date
+   9 cd opt
+  10 cd /opt
+  11 mkdir -p /task/start.txt
+  12 tree
+  13 cd /task
+  14 ls
+  15 cp -r /home/user/1.txt && /opt/task/start.txt
+  16 history > history.txt
+  17 cd
+  18 history > history.txt
+  19 history > history.txt export_file history.txt
+
+
+
+
+0 date > /var/nik.txt
+   1 cat /etc/group | awk '{print}' | tail -3 | sed 's/user/nik/'
+   2 cat /etc/group | awk '{print}' | tail -3 | sed 's/user/nik/' >nik.txt
+   3 vi echo
+   4 mv -i var/nik.txt root/newfolder/test/nik2.txt
+   5 >> /readme.txt >> nik.txt
+   6 history > history.txt
