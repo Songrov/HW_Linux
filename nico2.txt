@@ -1,9 +1,9 @@
-1.  git restore --staged Filename
-2.  git clean -xdf (  git clean -xdn  просмотр что можно удалять)
-3.  git checkout Filename
-4.  git commit --amend, git revert, git reset
-5.  git commit --amend -m "правильный Filename" 
-6.  git reset HEAD ~1
+1.  git restore --staged Filename  Как отказаться от изменений в файле (файлах) находящийся в рабочем каталоге (work directory)
+2.  git clean -xdf (  git clean -xdn  просмотр что можно удалять)  Как удалить все новые файлы, если их не нужно включать в коммит? (Очистка репозитория от лишних файлов)
+3.  git checkout Filename  Как вернуть файл из индекса в рабочий каталог
+4.  git commit --amend, git revert, git reset   Как отменить ошибочный commit ? (перечислить все варианты).
+5.  git commit --amend -m "правильный Filename"  Как исправить комментарии к коммиту?
+6.  git reset HEAD ~1  Как исправить коммит отправленный на GitHub
 7.  потому что уже могли коллеги к себе скачать и git puss не пройдет 
 
 
